@@ -1,6 +1,9 @@
 
 
 .section-1{background:red;}
+	.section-1 .cloud{position: absolute;bottom: -50%;left: 0;right: 0;}
+
+
 .section-2{background:green;}
 .section-3{background:blue;}
 .section-4{background:pink;}
