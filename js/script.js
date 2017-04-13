@@ -1,15 +1,17 @@
 $(document).ready(function(){
 
 	$(window).scroll(function() {
-	   if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
-	   		if ($('.section-2').visible(true)) {
-			    $('.section-2 .map-container').addClass('active');
-			}
-	   }
-	   if($(window).scrollTop() + $(window).height() < $(document).height() - 100) {
-	   		if ($('.section-2').visible(true)) {
-			    $('.section-2 .map-container').removeClass('active');
-			}
+	   var hT = $('.section-3').offset().top,
+	       hH = $('.section-3').outerHeight(),
+	       wH = $(window).height(),
+	       wS = $(this).scrollTop();
+	   if (wS > (hT+hH-wH)){
+	   		setTimeout(function(){
+	   		$('.map-container').addClass('active');
+	   		$('.map-container .maison').addClass('bounceIn');
+	   	}
+	   		, 1000);
+	   		
 	   }
 	});
 
