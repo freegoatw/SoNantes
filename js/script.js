@@ -4,19 +4,34 @@ $(document).ready(function(){
 
 
 
-
+		// choisi l'élément dont tu veux connaître la visibilité à l'écran
 	    var isSection3 = Utils.isElementInView($('.section-3'), false);
 
+
 		if (isSection3) {
+
+			// si l'élément est visible à l'écran le code suivant va être exécuté
+
 		    setTimeout(function(){
+
 		   		$('.map-container').addClass('active');
 	   			$('.map-container .maison').addClass('bounceIn');
 		   	}
 	   		, 1000);
 		}
 
-	   var isSection4 = Utils.isElementInView($('.section-4'), false);
+		else{
+			
+		}
 
+
+
+
+
+
+
+
+	   var isSection4 = Utils.isElementInView($('.section-4'), false);
 		if (isSection4) {
 		    setTimeout(function(){
 		   		$('.goutte').addClass('visible');
@@ -29,6 +44,19 @@ $(document).ready(function(){
 
 	});
 
+
+
+
+
+
+
+
+
+
+
+
+
+	// osef de ça, touche pas
 
 	function isScrolledIntoView(elem)
 	{
