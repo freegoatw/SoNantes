@@ -31,7 +31,17 @@ width: 60%;
   width:36%;
   float: right;
 }
+.full{
+  width: 40%;
+  padding-top: 100px;
+  margin-left: 30%;
+}
 
+h2{
+  margin: 40px;
+  color: #e2333f;
+  font-family: helvetica;
+}
 .section-1{}
   .section-1 .logo{position:absolute;left:50px;top:50px;width:300px;}
   .section-1 .container-section{display:flex;flex-direction:column;align-items: center;justify-content: center;height: 100vh;width: 100%;}
@@ -42,8 +52,11 @@ width: 60%;
 
   .section-content{min-height:100vh;}
     .section-content .container{width:80%;margin:0 auto;display: flex;align-items: center;justify-content: space-between;flex-wrap:wrap;margin:auto;width;:80%;}
-      .section-content .title{width:100%;margin-bottom:20px;font-size:50px; color: #1abc9c;}
-      .section-content:not(.section-2) .title{margin-top:10%;}
+      .section-content .title{    width: 100%;
+    margin-bottom: 20px;
+    font-size: 43px;
+    color: #1abc9c;}
+      .section-content:not(.section-2) .title{    margin-top: 61%;}
       .section .row{display:flex;justify-content: space-between;width: 100%;}
       .section-content .container .paragraph{width:70%;justify-content: center; margin: 42px 0}
 
