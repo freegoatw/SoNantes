@@ -95,7 +95,7 @@ h2{
 		.section-3 .map-container .carte{width:100%;}
 
 
-    .goutte{transition: all 0.5s linear;left: 30vw;bottom:0;margin-top:0;width:1vw;position:absolute;}
+    .goutte{transition: all 0.5s linear;left: 22.3vw;bottom:-31px;margin-top:0;width:1vw;position:absolute;}
     .goutte.visible{width: 5vw;left: 27.8vw;bottom: -6.5vw;}
 
 
