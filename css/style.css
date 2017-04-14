@@ -88,7 +88,7 @@ h2{
   .map-container .maison:nth-child(5){top:40vw;left:73vw;}
   .map-container .maison:nth-child(6){top:30vw;left:50vw;}
   .map-container .maison:nth-child(7){top:15vw;left:70vw;}
-  .legend{position:absolute;top:2vw;left:2vw;color:#e2333F;font-size:30px;display:flex;align-items:center;height:4vw;}
+  .legend{position:absolute;top:6vw;left:2vw;color:#e2333F;font-size:30px;display:flex;align-items:center;height:4vw;}
     .legend img{opacity:1;width:3vw;position:static;margin-right:1vw;}
 
 	.section-3 .map-container.active{}
