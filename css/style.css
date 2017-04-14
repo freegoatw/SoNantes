@@ -16,6 +16,13 @@ h1, .title {
 p, li{
   font-family: 'helvetica';
 }
+.rs-img{
+  width: 5% !important;
+  margin-top: 40px;
+}
+.grand{
+  font-size: 70px;
+}
 .title {
   font-family: 'Fjalla One', sans-serif;
 }
@@ -35,6 +42,7 @@ width: 60%;
   width: 40%;
   padding-top: 100px;
   margin-left: 30%;
+  margin-bottom: 200px;
 }
 
 h2{
@@ -76,9 +84,9 @@ h2{
   .legend{position:absolute;top:-5vw;left:2vw;color:#e2333F;font-size:30px;display:flex;align-items:center;height:4vw;}
     .legend img{opacity:1;width:3vw;position:static;margin-right:1vw;}
 
-	.section-3 .map-container.active{}	
+	.section-3 .map-container.active{}
 		.section-3 .map-container .carte{width:100%;}
-		
+
 
     .goutte{transition: all 0.5s linear;left: 30vw;bottom:0;margin-top:0;width:1vw;position:absolute;}
     .goutte.visible{width: 5vw;left: 27.8vw;bottom: -6.5vw;}
@@ -107,11 +115,10 @@ animation: AnimationName 4s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
 
 .flux-1{position:absolute;top: 10vw;top: 11vw;left: 44vw;width: 109px;height: 10px;transform: rotate(-10deg);}
-
